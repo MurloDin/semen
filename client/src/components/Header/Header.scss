@@ -1,0 +1,26 @@
+.page-header {
+  padding: 15px 0;
+  &__link {
+    cursor: pointer;
+    color: rgba(1,1,1,.6);
+    font-weight: bold;
+  }
+  &__logo {
+    margin-left: 20px;
+    height: 64px;
+  }
+  &__navigation {
+    margin-top: 15px;
+    display: flex;
+    list-style: none;
+    &-item {
+      font-size: 16px;
+      margin-left: 40px;
+    }
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

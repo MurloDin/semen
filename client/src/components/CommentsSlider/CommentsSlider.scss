@@ -1,0 +1,18 @@
+.slider-card {
+  margin: 30px 0;
+  display: flex;
+  padding: 40px;
+  max-width: 95%;
+  height: 220px;
+  background-color: #fccb7b;
+  &__comment {
+    color: rgba(1,1,1,.8);
+    width: 100%;
+  }
+  &__author {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(1,1,1,.6);
+  }
+}

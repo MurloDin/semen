@@ -1,0 +1,14 @@
+.journey-section {
+  margin-top: 100px;
+  height: 120vh;
+  text-align: center;
+
+  &__wrapper {
+    text-align: center;
+    padding-bottom: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
